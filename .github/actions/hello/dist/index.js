@@ -591,7 +591,7 @@ function main() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             const name = _actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput('Name');
-            _actions_core__WEBPACK_IMPORTED_MODULE_0__.info(`Hello, ${name}!`);
+            _actions_core__WEBPACK_IMPORTED_MODULE_0__.info(`Hello, ${name}!!!`);
         }
         catch (error) {
             _actions_core__WEBPACK_IMPORTED_MODULE_0__.setFailed(error.message);
