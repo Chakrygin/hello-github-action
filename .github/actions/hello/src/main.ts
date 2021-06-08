@@ -4,7 +4,7 @@ async function main() {
   try {
 
     const name = core.getInput('Name');
-    core.info(`Hello, ${name}!!!`);
+    core.info(`Hello, ${name}!`);
 
   } catch (error) {
     core.setFailed(error.message)
