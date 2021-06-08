@@ -7,9 +7,7 @@ for action in $(find ".github/actions" -name "action.yml"); do
     echo "Building \"$action_name\" action..."
     pushd "$action_path" >/dev/null
     npm run build
-    git add "$action_path/dist/index.js"
+    git add "dist/index.js"
     popd >/dev/null
     echo
 done
-
-sleep 1
